@@ -1,0 +1,23 @@
+# CITRAIT - EXCELENCIA EM TI
+# Instalação de dependências para compilação do OpenJDK 20 (java development kit)
+# @Author: luciano@citrait.com.br
+# @Version: 1.0 baby born
+# @Homologado para: ubuntu 22.04 LTS
+# Usage: Copie o conteúdo inteiro abaixo e cole no shell.
+#        Poderes de sudo/root serão necessários.
+# @Tip: good lock hacking java ;D
+
+
+sudo apt install -y autoconf \
+    build-essential \
+    unzip \
+    zip \
+    libasound2-dev \
+    libcups2-dev \
+    libfontconfig1-dev \
+    libx11-dev \
+    libxext-dev \
+    libxrender-dev \
+    libxrandr-dev \
+    libxtst-dev \
+    libxt-dev
